@@ -1,0 +1,40 @@
+{
+  "workbench.colorTheme": "An Old Hope",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "editor.renderWhitespace": "all",
+  "editor.wordWrapColumn": 120,
+  "files.exclude": {
+    "**/.awcache/**": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": true,
+    "**/dst": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.awcache/**": true,
+    "**/dist/**": true,
+    "**/dst/**": true
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": -1,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "files.autoSave": "off",
+  "editor.fontSize": 16,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": ["formik"],
+  "workbench.startupEditor": "newUntitledFile"
+}
