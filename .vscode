@@ -6,6 +6,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
   "editor.renderWhitespace": "all",
   "editor.wordWrapColumn": 120,
   "files.exclude": {
@@ -14,9 +17,7 @@
     "**/.git": true,
     "**/.hg": true,
     "**/.svn": true,
-    "**/CVS": true,
-    "**/dist": true,
-    "**/dst": true
+    "**/CVS": true
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -36,5 +37,20 @@
   "editor.fontSize": 16,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "cSpell.userWords": ["formik"],
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "C:\\tools\\Cmder\\vendor\\init.bat"
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-v>": false,
+    "<C-c>": false,
+    "<C-k>": false,
+    "<C-b>": false,
+    "<C-n>": false,
+    "<C-w>": false
+  }
 }
